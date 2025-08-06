@@ -1,0 +1,253 @@
+{
+  "e": [
+    {
+      "i": 0,
+      "t": "T",
+      "l": "Choose App Language"
+    },
+    {
+      "i": 1,
+      "t": "T",
+      "l": "You can change language later from MPL App Settings"
+    },
+    {
+      "i": 2,
+      "t": "I",
+      "l": "languageSettingsImage"
+    },
+    {
+      "i": 3,
+      "t": "C",
+      "l": "languageOption_English",
+      "c": 1,
+      "h": "click"
+    },
+    {
+      "i": 4,
+      "t": "C",
+      "l": "radioButton_English",
+      "c": 1,
+      "h": "click"
+    },
+    {
+      "i": 5,
+      "t": "L",
+      "l": "List of 4 T items",
+      "items": [
+        "\ue97b",
+        "\ue97a",
+        "English",
+        "English"
+      ],
+      "h": "select"
+    },
+    {
+      "i": 9,
+      "t": "C",
+      "l": "languageOption_Hindi",
+      "c": 1,
+      "h": "click"
+    },
+    {
+      "i": 10,
+      "t": "C",
+      "l": "radioButton_Hindi",
+      "c": 1,
+      "h": "click"
+    },
+    {
+      "i": 11,
+      "t": "L",
+      "l": "List of 3 T items",
+      "items": [
+        "\ue97b",
+        "\u0939\u093f\u0928\u094d\u0926\u0940",
+        "Hindi"
+      ],
+      "h": "select"
+    },
+    {
+      "i": 14,
+      "t": "C",
+      "l": "languageOption_Hinglish",
+      "c": 1,
+      "h": "click"
+    },
+    {
+      "i": 15,
+      "t": "C",
+      "l": "radioButton_Hinglish",
+      "c": 1,
+      "h": "click"
+    },
+    {
+      "i": 16,
+      "t": "L",
+      "l": "List of 3 T items",
+      "items": [
+        "\ue97b",
+        "Hinglish",
+        "Hinglish"
+      ],
+      "h": "select"
+    },
+    {
+      "i": 19,
+      "t": "C",
+      "l": "languageOption_Bengali",
+      "c": 1,
+      "h": "click"
+    },
+    {
+      "i": 20,
+      "t": "C",
+      "l": "radioButton_Bengali",
+      "c": 1,
+      "h": "click"
+    },
+    {
+      "i": 21,
+      "t": "L",
+      "l": "List of 3 T items",
+      "items": [
+        "\ue97b",
+        "\u09ac\u09be\u0982\u09b2\u09be",
+        "Bengali"
+      ],
+      "h": "select"
+    },
+    {
+      "i": 24,
+      "t": "C",
+      "l": "languageOption_Tamil",
+      "c": 1,
+      "h": "click"
+    },
+    {
+      "i": 25,
+      "t": "C",
+      "l": "radioButton_Tamil",
+      "c": 1,
+      "h": "click"
+    },
+    {
+      "i": 26,
+      "t": "L",
+      "l": "List of 3 T items",
+      "items": [
+        "\ue97b",
+        "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd",
+        "Tamil"
+      ],
+      "h": "select"
+    },
+    {
+      "i": 29,
+      "t": "C",
+      "l": "languageOption_Telugu",
+      "c": 1,
+      "h": "click"
+    },
+    {
+      "i": 30,
+      "t": "C",
+      "l": "radioButton_Telugu",
+      "c": 1,
+      "h": "click"
+    },
+    {
+      "i": 31,
+      "t": "L",
+      "l": "List of 3 T items",
+      "items": [
+        "\ue97b",
+        "\u0c24\u0c46\u0c32\u0c41\u0c17\u0c41",
+        "Telugu"
+      ],
+      "h": "select"
+    },
+    {
+      "i": 34,
+      "t": "C",
+      "l": "languageOption_Marathi",
+      "c": 1,
+      "h": "click"
+    },
+    {
+      "i": 35,
+      "t": "C",
+      "l": "radioButton_Marathi",
+      "c": 1,
+      "h": "click"
+    },
+    {
+      "i": 36,
+      "t": "L",
+      "l": "List of 3 T items",
+      "items": [
+        "\ue97b",
+        "\u092e\u0930\u093e\u0920\u0940",
+        "Marathi"
+      ],
+      "h": "select"
+    },
+    {
+      "i": 39,
+      "t": "C",
+      "l": "languageOption_Gujarati",
+      "c": 1,
+      "h": "click"
+    },
+    {
+      "i": 40,
+      "t": "C",
+      "l": "radioButton_Gujarati",
+      "c": 1,
+      "h": "click"
+    },
+    {
+      "i": 41,
+      "t": "L",
+      "l": "List of 3 T items",
+      "items": [
+        "\ue97b",
+        "\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0",
+        "Gujarati"
+      ],
+      "h": "select"
+    },
+    {
+      "i": 44,
+      "t": "C",
+      "l": "button-container",
+      "c": 1,
+      "h": "click"
+    },
+    {
+      "i": 45,
+      "t": "T",
+      "l": "Set Language to English"
+    },
+    {
+      "i": 46,
+      "t": "B",
+      "l": "drop-shadow",
+      "c": 1,
+      "h": "click"
+    },
+    {
+      "i": 47,
+      "t": "C",
+      "l": "touch",
+      "c": 1,
+      "h": "click"
+    }
+  ],
+  "n": 31,
+  "m": {
+    "nav": [
+      1,
+      2
+    ]
+  }
+}

@@ -5,6 +5,7 @@
 The `dump-minimal` command creates a highly optimized JSON that's 70-90% smaller than the original XML.
 
 ### Before (Original XML → JSON):
+
 ```json
 {
   "screen_elements": [
@@ -14,8 +15,8 @@ The `dump-minimal` command creates a highly optimized JSON that's 70-90% smaller
       "label": "Welcome",
       "clickable": false,
       "enabled": true,
-      "location": {"x": 250, "y": 100},
-      "size": {"width": 500, "height": 50},
+      "location": { "x": 250, "y": 100 },
+      "size": { "width": 500, "height": 50 },
       "identifiers": {
         "resource_id": "com.app:id/welcome_text",
         "text": "Welcome",
@@ -38,13 +39,14 @@ The `dump-minimal` command creates a highly optimized JSON that's 70-90% smaller
 ```
 
 ### After (Minimal Format):
+
 ```json
 {
   "e": [
-    {"i": 0, "t": "I", "l": "Username", "h": "type"},
-    {"i": 1, "t": "I", "l": "Password", "h": "type"},
-    {"i": 2, "t": "B", "l": "Login", "c": 1, "h": "click"},
-    {"i": 3, "t": "T", "l": "Forgot password?", "c": 1, "h": "click"}
+    { "i": 0, "t": "I", "l": "Username", "h": "type" },
+    { "i": 1, "t": "I", "l": "Password", "h": "type" },
+    { "i": 2, "t": "B", "l": "Login", "c": 1, "h": "click" },
+    { "i": 3, "t": "T", "l": "Forgot password?", "c": 1, "h": "click" }
   ],
   "n": 4,
   "m": {
@@ -57,6 +59,7 @@ The `dump-minimal` command creates a highly optimized JSON that's 70-90% smaller
 ## Key Optimizations:
 
 1. **Filtered Elements**:
+
    - ❌ Disabled/invisible elements
    - ❌ Non-interactive containers
    - ❌ Duplicate elements
@@ -64,6 +67,7 @@ The `dump-minimal` command creates a highly optimized JSON that's 70-90% smaller
    - ✅ Only actionable UI elements
 
 2. **Minimal Keys**:
+
    - `i` = index (instead of "index")
    - `t` = type (B=Button, T=Text, I=Input, L=List)
    - `l` = label
@@ -71,6 +75,7 @@ The `dump-minimal` command creates a highly optimized JSON that's 70-90% smaller
    - `h` = hint (click/type/select)
 
 3. **Smart Grouping**:
+
    - Similar list items are grouped
    - Pattern detection for common UI elements
    - Quick lookup map for auth/nav/action patterns
